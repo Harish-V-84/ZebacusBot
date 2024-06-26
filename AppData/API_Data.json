@@ -1,0 +1,174 @@
+{
+  "startCount": 1,
+  "endCount": 10,
+  "botID": "BOT-H",
+  "normalAccount": {
+    "start_qty": 2,
+    "end_qty": 5
+  },
+  "marketMakerAccount": {
+    "start_qty": 3,
+    "end_qty": 6
+  },
+  "1": {
+    "userType": "client",
+    "clientID": "23",
+    "emailID": "harish+k2@pibase.info",
+    "API": "2ef846b10a0f93b73c8502ee72b29ea68223ce0644321000b34baba4efb4d570",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "2": {
+    "userType": "marketMaker",
+    "clientID": "14",
+    "emailID": "harishvenkat2018@gmail.com",
+    "API": "d969e27e4f6c052d551a899a3f86b6f86b26d46240b5d1ea6a34f672d466fe09",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "3": {
+    "userType": "client",
+    "clientID": "90",
+    "emailID": "harish+09feb@pibase.info",
+    "API": "d6667acdcc63034c0faf58c1b21415f3cc107819fa2b5bf8423dcf42f01bf29d",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "4": {
+    "userType": "client",
+    "clientID": "56",
+    "emailID": "harish+jan31@pibase.info",
+    "API": "85775aad357f6edf43a544fb22e9490cc52d7cef406529d5c4c6ad7f0203090e",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "5": {
+    "userType": "client",
+    "clientID": "105",
+    "emailID": "harish+feb16@pibase.info",
+    "API": "39562e1b5bf4daf1f279d5be3c4e93c74bca4f53cd0106100fe7c884ffe0f8ab",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "6": {
+    "userType": "client",
+    "clientID": "49",
+    "emailID": "harish+m03jan29@pibase.info",
+    "API": "0d1a3cd1d2fa73d79fcc2c1d6ab7988e0ecffeb4986be4fbf39d6fbc3ac54b12",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "7": {
+    "userType": "client",
+    "clientID": "3000015",
+    "emailID": "aravindhan+apr04+06@pibase.info",
+    "API": "2bdf40af966882dcb450d0704d7743cc92ce7929085192186e82eb9b48abbe7c",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "8": {
+    "userType": "client",
+    "clientID": "3000014",
+    "emailID": "aravindhan+apr04+05@pibase.info",
+    "API": "5020e94ceb420298c0a56428371037b2290b61e2dc3987402fd40633971d511e",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "9": {
+    "userType": "client",
+    "clientID": "3000013",
+    "emailID": "aravindhan+apr04+04@pibase.info",
+    "API": "f749a92ff27b5dd45314f8f6d14e22809008edc524e2acf72d9ac3daef2b6601",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "10": {
+    "userType": "client",
+    "clientID": "3000012",
+    "emailID": "aravindhan+apr04+03@pibase.info",
+    "API": "b5274eb52eb7bc9ff8a80add4ed55a62d51d874e13bf55c20ff04f1caa06c337",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "11": {
+    "userType": "client",
+    "clientID": "3000011",
+    "emailID": "aravindhan+apr05+02@pibase.info",
+    "API": "fd6c6bd9d88f060432f21640e353971024d671419f83ad959b9338e70ce05f33",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "12": {
+    "userType": "client",
+    "clientID": "88",
+    "emailID": "harish+01feb08@pibase.info",
+    "API": "cd8adf9080e0b3ca228522cb267247efd06ab530c50a3e9f693a17f7114ae975",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "13": {
+    "userType": "client",
+    "clientID": "3000007",
+    "emailID": "harish+1mar20@pibase.info",
+    "API": "1ef675ac059f4a05cb26f0119a310067a713b2f15834ee3759bf6088789f1859",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "14": {
+    "userType": "client",
+    "clientID": "3000006",
+    "emailID": "harish+mar20@pibase.info",
+    "API": "4a0b9820a5ad1b242b4cfc6fa8c945bc736046f537d7013390833e4f3b19db98",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "15": {
+    "userType": "client",
+    "clientID": "107",
+    "emailID": "harish+qa1@pibase.info",
+    "API": "5a13fcec7257905451f8452241249018528ad71de19419255d9a6803950b8bad",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  },
+  "16": {
+    "userType": "client",
+    "clientID": "110",
+    "emailID": "harish+01feb20@pibase.info",
+    "API": "8f9e0f10f24bb0c47c83408481511f3148f1320e3ca4d3e187bf23bd1f81b62b",
+    "BuyLimit": true,
+    "SellLimit": false,
+    "BuyMarket": false,
+    "SellMarket": false
+  }
+
+}
