@@ -11,6 +11,8 @@ public class TestRunner extends TestUtils {
     static String filePath = "/AppData/API_Data.json";
     static String filePathOfBot = "/Release/net8.0/appsettings.json";
     static File botRunner = new File(System.getProperty("user.dir")+"/Release/net8.0/Pibase_Bot.exe");
+    static String dataLog = "/Release/net8.0/Data_Logs";
+    static int fileNum = 3;
 
     @SuppressWarnings(value = "unchecked")
     public static void runner(){
@@ -127,7 +129,31 @@ public class TestRunner extends TestUtils {
                 if (botRunner.exists()){
 
                     desktop.open(botRunner);
-                    Thread.sleep(2000);
+
+                    Thread.sleep(3000);
+
+                    File[] files = listOfFiles(dataLog);
+
+                    if (files == null){
+
+                        Thread.sleep(3000);
+                        files = listOfFiles(dataLog);
+
+                    } else if (files.length != fileNum) {
+
+                        Thread.sleep(3000);
+                        files = listOfFiles(dataLog);
+                    }
+
+                    fileNum =+ 3;
+
+                    for (File file: files){
+
+                        if(file.getName().contains("log_place_orders_" + botID)){
+
+                           System.out.println("Status OK");
+                        }
+                    }
                 }
             } catch (Exception e) {
                 throw new RuntimeException(e);

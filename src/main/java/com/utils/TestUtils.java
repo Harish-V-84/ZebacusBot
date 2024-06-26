@@ -74,4 +74,26 @@ public class TestUtils {
             System.out.println(exception.getMessage());
         }
     }
+
+    public static File[] listOfFiles(String filePath){
+
+        try {
+
+            File directory = new File(System.getProperty("user.dir") + File.separator + filePath);
+
+            if (directory.exists()) {
+
+                if(directory.isDirectory()){
+
+                    return directory.listFiles();
+                }
+            }
+        } catch (Exception exception) {
+
+            System.out.println(exception.getMessage());
+        }
+
+        return null;
+    }
+
 }
