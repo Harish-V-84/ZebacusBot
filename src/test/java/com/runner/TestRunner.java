@@ -159,7 +159,21 @@ public class TestRunner extends TestUtils {
 
                                 String readLine = br.readLine();
 
-                                if (j == 1) {
+                                if (readLine == null){
+
+                                    Thread.sleep(3000);
+                                    readLine = br.readLine();
+                                }
+
+                                if (j == 1){
+
+                                    if (!readLine.contains("\"statusCode\": 200,")) {
+
+                                        Thread.sleep(3000);
+                                    }
+                                }
+
+                                if (readLine.contains("\"statusCode\": 200,")) {
 
                                     System.out.println(readLine);
                                 }
