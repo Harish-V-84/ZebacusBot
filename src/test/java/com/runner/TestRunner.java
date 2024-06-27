@@ -3,7 +3,9 @@ package com.runner;
 import com.utils.TestUtils;
 
 import java.awt.*;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.util.Map;
 
 public class TestRunner extends TestUtils {
@@ -151,7 +153,18 @@ public class TestRunner extends TestUtils {
 
                         if(file.getName().contains("log_place_orders_" + botID)){
 
-                           System.out.println("Status OK");
+                            BufferedReader br = new BufferedReader(new FileReader(file));
+
+                            for (int j = 0; j < 2; j++) {
+
+                                String readLine = br.readLine();
+
+                                if (j == 1) {
+
+                                    System.out.println(readLine);
+                                }
+                            }
+//                           System.out.println("Status OK");
                         }
                     }
                 }
